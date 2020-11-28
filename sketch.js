@@ -45,20 +45,20 @@ function draw() {
   lyd = soundFile.stop();
 
 if (label == "Traffic") {
-frameRate(0.1);
+frameRate(0.2);
     emoji = "🚂";
     soundFile.play();
 print(1);
 
 
   } else if (label == "Kids") {
-frameRate(0.1);
+frameRate(0.2);
     emoji = "🏃";
     soundFile.play();
     print(2);
 
   } else if (label == "Talking") {
-frameRate(0.1);
+frameRate(0.2);
     emoji = "🗣️";
     soundFile.play();
     print(3);
